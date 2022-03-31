@@ -1,0 +1,84 @@
+:root {
+  --primarycolor: #2f9ec0;
+  --defaultbackground: #031346fc;
+  --servicebackground: #304750;
+  --footerbackground: #041033;
+}
+html{
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: var(--defaultbackground);
+}
+.portfolio{
+  font-size: 1.5em;
+}
+.portfolio,
+.nav-link{
+  color: white;
+  text-decoration: none;
+}
+.plus {
+  color: white;
+  font-size: 1.5rem;
+}
+.plus:hover{
+  color: var(--primarycolor);
+}
+.portfolio:hover{
+  color: var(--primarycolor);
+  transition: 0.5s;
+}
+.nav-item a:hover {
+  color: var(--primarycolor);
+  transition: 0.5s;
+}
+
+.homepage {
+  background-color: var(--defaultbackground);
+  background: linear-gradient(rgba(0.5,0.5,0.5,0.6),rgba(0.5,0.5,0.5,0.6)),
+  url("./pictures/background.jpg"), center/cover;
+  height: 100vh;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+.btn {
+  background-color: transparent;
+  border: 0.1em solid #fff;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background-color: var(--primarycolor);
+  border: 2px solid var(--primarycolor);
+  border-radius: 0.8em;
+}
+.about, .service, .contact{
+  background: var(--defaultbackground);
+}
+.about-img{
+  width: 100%;
+}
+.about-img img{
+  width: 100%;
+}
+#about{
+  padding: 8em 0;
+}
+.contact {
+  height: 20em;
+}
+.services-col {
+  border-radius: 3em;
+  border: 2px solid transparent;
+  height: auto;
+  padding: 2em 3em;
+  margin: 1.3em;
+  background: var(--servicebackground);
+}
+.skill{
+  background: var(--footerbackground);
+}

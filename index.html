@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Gideon's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <a href="#" id="home" class="portfolio navbar-brand">Portfolio</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-target="#navmenu"
+            data-bs-toggle="collapse"
+          >
+            <span class="plus navbar-toggler-icon">=</span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skill" class="nav-link">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="homepage text-center text-md-start py-4">
+        <div class="content container">
+          <h4 class="text-light">Hello, my name is</h4>
+          <h1 class="text-light" title="Gideon the developer">Gideon Agbosu</h1>
+          <h3 class="text-light mb-5">I'am a starting programmer.</h3>
+          
+        </div>
+      </section>
+      <!-- THE ABOUT SECTION -->
+      <section id="about" class="about pb-lg-5">
+        <div class="container text-center text-md-start py-5 text-light">
+          <div class="d-lg-flex align-items-center justify-content-between">
+            <div class="about-img">
+              <img class="px-5 d-none d-sm-block" src="./pictures/about.jpg" alt="mega" />
+            </div>
+            <div class="about-text px-5">
+              <p class="h1">About Me</p>
+              <h5 class="lead">Developer & programmer</h5>
+              <p>
+                I'm an ordinary dude who ❤'s to code. Though I'm a starting developer, I believe with the God on my side, consistency and hardwork I can achieve everything I want.
+              </p>
+              <button class="btn text-light btn-sm">Let's talk</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- THE SERVICE SECTION -->
+      <section id="service" class="service py-5 text-light">
+        <div class="container text-center">
+          <div class="h1 pb-5">Our Services</div>
+          <div class="d-lg-flex">
+            <div class="col services-col">
+              <h5>Web developments</h5>
+              <div>
+                <p>
+                  Every fully developed and functioning website should have should have certain things in common. Thus, the website should be fast and responsible across multiple screen sizes.
+                </p>
+                <p>
+                  <a class="btn text-light" href="#">Read More &gt;</a>
+                </p>
+              </div>
+            </div>
+            <div class="col services-col">
+              <h5>Graphic design</h5>
+              <div>
+                <p>
+                  We make nice and awesome graphic designs such as log making, stickers, banners, book covers and so on.
+                </p>
+                <p>
+                  <a class="btn text-light" href="#">Read More &gt;</a>
+                </p>
+              </div>
+            </div>
+            <div class="col services-col">
+              <h5>Some IT related services.</h5>
+              <div>
+                <p>
+                  We also provide some basic to advance IT help supports that you could ever want. Yes! hire us for all these basic needs and many more.
+                </p>
+                <p>
+                  <a class="btn text-light" href="#">Read More &gt;</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- CONTACT ME -->
+      <section id="contact" class="contact text-center p-5 text-light align-items-center justify-content-center d-flex">
+        <div class="container">
+          <div>
+            <p class="h3 pb-3 pb-5">Reach out to us to get all designs and IT related <br> needs sorted to your satisfaction.</p>
+              <a href="#" class="btn text-light">Hire Me</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="skill text-center p-5 text-light">
+      <div class="container">
+        <p class="h4">Gideon Agbosu</p>
+        <p>For more web developments, graphic design and IT related jobs... Just reach out to me to get all your needs sorted out!!!.</p>
+          <div class="copy">
+            &copy; 2022 By Gideon Agbosu
+          </div>
+      </div>
+    </footer>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
